@@ -1,0 +1,50 @@
+body{
+    font-family: 'Yusei Magic', sans-serif;
+    background-color: black;
+    color:white;
+}
+.card{
+    color:black;
+    /* padding:20px; */
+}
+#notesContainer{
+    color:black;
+}
+.checked {
+  color: orange;
+}
+
+#logo{
+    display:flex;
+    justify-content: center;
+    
+}
+#logo img{
+    width:40px ;
+    cursor: pointer;
+
+}
+.noteCard:hover{
+    box-shadow:5px 5px 20px rgb(214, 214, 214);
+}
+
+@media (max-width: 990px) { 
+    #notesContainer{
+        display:flex;
+        justify-content:center;
+    }
+}
+@media (max-width: 400px) { 
+    #searchBar{
+        display:flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        justify-content:center;
+    }
+    #btnSearch{
+        width:100px;
+        margin:5px auto;
+    }
+}
+
+
